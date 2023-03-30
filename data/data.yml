@@ -3,8 +3,8 @@ model_dir: content/data
 data:
   train_features_file: data/demo_train_new_Tatoeba.be-ru.be
   train_labels_file: data/demo_train_lang_Tatoeba.be-ru.ru
-  eval_features_file: data/demo_valnew_Tatoeba.be-ru.be
-  eval_labels_file: data/demo_vallang_Tatoeba.be-ru.ru
+  eval_features_file: data/demo_val_new_Tatoeba.be-ru.be
+  eval_labels_file: data/demo_val_lang_Tatoeba.be-ru.ru
   source_vocabulary: data/be-vocab.txt
   target_vocabulary: data/ru-vocab.txt
 
