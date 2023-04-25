@@ -2,11 +2,11 @@ model_dir: content/data
 
 data:
   train_features_file: VKR/data/demo_train_new_Tatoeba.be-ru.be
-  train_labels_file: VKR/data/demo_train_lang_Tatoeba.be-ru.ru
+  train_labels_file: VKR/data/demo_train_lang_Tatoeba.be-ru.be
   eval_features_file: VKR/data/demo_val_new_Tatoeba.be-ru.be
-  eval_labels_file: VKR/data/demo_val_lang_Tatoeba.be-ru.ru
+  eval_labels_file: VKR/data/demo_val_lang_Tatoeba.be-ru.be
   source_vocabulary: VKR/data/be-vocab.txt
-  target_vocabulary: VKR/data/ru-vocab.txt
+  target_vocabulary: VKR/data/be-vocab.txt
 
 train:
   save_checkpoints_steps: 1000
