@@ -1,12 +1,12 @@
 model_dir: VKR/model
 
 data:
-  train_features_file: VKR/data/demo_train_new_Tatoeba.be-ru.be
-  train_labels_file: VKR/data/demo_train_lang_Tatoeba.be-ru.be
-  eval_features_file: VKR/data/demo_val_new_Tatoeba.be-ru.be
-  eval_labels_file: VKR/data/demo_val_lang_Tatoeba.be-ru.be
-  source_vocabulary: VKR/data/src-vocab_be.txt
-  target_vocabulary: VKR/data/tgt-vocab.txt
+  train_features_file: VKR/be/demo_train_new_Tatoeba.be-ru.be
+  train_labels_file: VKR/be/demo_train_lang_Tatoeba.be-ru.be
+  eval_features_file: VKR/be/demo_val_new_Tatoeba.be-ru.be
+  eval_labels_file: VKR/be/demo_val_lang_Tatoeba.be-ru.be
+  source_vocabulary: VKR/be/src-vocab_be.txt
+  target_vocabulary: VKR/be/tgt-vocab.txt
 
 run_type: 'train'
 
