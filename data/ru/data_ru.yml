@@ -1,0 +1,30 @@
+model_dir: VKR/model
+
+data:
+  train_features_file: VKR/data/demo_train_new_Tatoeba.ru-uk.ru
+  train_labels_file: VKR/data/demo_train_lang_Tatoeba.ru-uk.ru
+  eval_features_file: VKR/data/demo_val_new_Tatoeba.ru-uk.ru
+  eval_labels_file: VKR/data/demo_val_lang_Tatoeba.ru-uk.ru
+  source_vocabulary: VKR/data/src-vocab_ru.txt
+  target_vocabulary: VKR/data/tgt-vocab.txt
+
+run_type: 'train'
+
+num_gpus: 1
+
+train:
+  save_checkpoints_steps: 100
+  save_summary_steps: 100
+
+eval:
+    save_eval_predictions: true
+    steps: 100  # Every 1 hour
+    scorers:
+    - wer
+    - ter
+    early_stopping:
+      metric: perplexity
+      min_improvement: 0.01
+      steps: 1
+infer:
+    batch_size: 32
