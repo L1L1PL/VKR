@@ -1,10 +1,10 @@
 model_dir: VKR/model
 
 data:
-  train_features_file: VKR/ru/demo_train_new_Tatoeba.ru-uk.ru
-  train_labels_file: VKR/ru/demo_train_lang_Tatoeba.ru-uk.ru
-  eval_features_file: VKR/ru/demo_val_new_Tatoeba.ru-uk.ru
-  eval_labels_file: VKR/ru/demo_val_lang_Tatoeba.ru-uk.ru
+  train_features_file: VKR/ru/demo_train_new_Tatoeba.ru-ru.ru
+  train_labels_file: VKR/ru/demo_train_lang_Tatoeba.ru-ru.ru
+  eval_features_file: VKR/ru/demo_val_new_Tatoeba.ru-ru.ru
+  eval_labels_file: VKR/ru/demo_val_lang_Tatoeba.ru-ru.ru
   source_vocabulary: VKR/ru/src-vocab_ru.txt
   target_vocabulary: VKR/ru/tgt-vocab.txt
 
