@@ -2,9 +2,9 @@ model_dir: VKR/model
 
 data:
   train_features_file: VKR/demo_train_corpus.txt
-  train_labels_file: VKR/be/demo_train_corpus-id.txt
-  eval_features_file: VKR/be/demo_val_corpus.txt
-  eval_labels_file: VKR/be/demo_val_corpus-id.txt
+  train_labels_file: VKR/demo_train_corpus-id.txt
+  eval_features_file: VKR/demo_val_corpus.txt
+  eval_labels_file: VKR/demo_val_corpus-id.txt
   source_vocabulary: VKR/src-vocab.txt
   target_vocabulary: VKR/tgt-vocab.txt
 
