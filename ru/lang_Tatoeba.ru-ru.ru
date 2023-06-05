@@ -17507,6 +17507,3 @@ ru
 ru
 ru
 ru
-ru
-ru
-ru
