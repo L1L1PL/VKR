@@ -5,8 +5,8 @@ data:
   train_labels_file: VKR/uk/demo_train_lang_Tatoeba.uk-ru.uk
   eval_features_file: VKR/uk/demo_val_new_Tatoeba.uk-ru.uk
   eval_labels_file: VKR/uk/demo_val_lang_Tatoeba.uk-ru.uk
-  source_vocabulary: VKR/uk/src-vocab_uk.txt
-  target_vocabulary: VKR/uk/tgt-vocab.txt
+  source_vocabulary: VKR/src-vocab.txt
+  target_vocabulary: VKR/tgt-vocab.txt
 
 run_type: 'train'
 
